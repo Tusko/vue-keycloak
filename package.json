@@ -1,0 +1,42 @@
+{
+  "name": "vue-keycloak",
+  "version": "1.0.0",
+  "description": "Keycloak plugin for Vue3 and Composition API",
+  "main": "src/vue3-keycloak.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tusko/vue-keycloak.git"
+  },
+  "keywords": [
+    "vue",
+    "keycloak",
+    "vue3",
+    "composition-api"
+  ],
+  "author": {
+    "name": "Tusko Trush",
+    "email": "tusko@trush.email",
+    "url": "https://github.com/Tusko"
+  },
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Tusko/vue-keycloak/issues"
+  },
+  "homepage": "https://github.com/Tusko/vue-keycloak#readme",
+  "peerDependencies": {
+    "jwt-decode": "^3.1.2",
+    "keycloak-js": "^12.0.4",
+    "lodash": "^4.17.12",
+    "vue": "^3.0.8"
+  },
+  "devDependencies": {
+    "jwt-decode": "^3.1.2",
+    "keycloak-js": "^20.0.0",
+    "lodash": "^4.17.21"
+  },
+  "dependencies": {
+  }
+}

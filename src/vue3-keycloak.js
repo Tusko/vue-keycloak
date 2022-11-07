@@ -13,6 +13,7 @@ const state = reactive({
   roles: [],
   resourceRoles: {},
 });
+
 const setToken = (token) => {
   state.token = token;
   const content = jwtDecode(state.token);
@@ -28,12 +29,15 @@ const setToken = (token) => {
       )
     : {};
 };
+
 const hasFailed = (value) => {
   state.hasFailed = value;
 };
+
 const isPending = (value) => {
   state.isPending = value;
 };
+
 const isAuthenticated = (value) => {
   state.isAuthenticated = value;
 };
