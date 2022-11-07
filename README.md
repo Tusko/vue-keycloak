@@ -27,7 +27,7 @@ Install the [keycloak-js](https://www.keycloak.org/docs/latest/securing_apps/#_j
 Import the library into your `src/vue3-keycloak` file or any other entry point.
 
 ```typescript
-import {vueKeycloak} from "vue3-keycloak.js";
+import {vueKeycloak} from "src/vue3-keycloak";
 ```
 
 Apply the library to the vue app instance.
